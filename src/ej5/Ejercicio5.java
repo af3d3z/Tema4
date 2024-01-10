@@ -7,9 +7,9 @@ public class Ejercicio5 {
         // almacenará los números introducidos por teclado
         double[] numeros = new double[10];
         // almacena el mayor número
-        double mayor = 0;
+        double mayor = Double.MIN_VALUE;
         // almacena el menor número
-        double menor = 0;
+        double menor = Double.MAX_VALUE;
         // almacena la suma de todos los números en el array
         double suma = 0;
         Scanner sc = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Ejercicio5 {
             // comprobamos si es menor o mayor
             if (numeros[i] > mayor) {
                 mayor = numeros[i];
-            } else if (numeros[i] < menor || menor == 0) {
+            } else if (numeros[i] < menor) {
                 menor = numeros[i];
             }
         }
