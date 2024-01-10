@@ -9,6 +9,7 @@ public class Ejercicio2 {
         // tabla que almacena los números
         int[] tabla = new int[5];
 
+        // pedimos al usuario tantos números como posiciones tenga el array
         for(int i = 0; i < tabla.length; i++){
             System.out.println("Ingresa un número:");
             tabla[i] = sc.nextInt();

@@ -13,6 +13,7 @@ public class Ejercicio4 {
         array[8] = 5;
         array[9] = 120;
 
+        // mostramos el array
         for(int i = 0; i < array.length; i++) {
             if(i == 0){
                 System.out.print("[" + array[i] + ", ");

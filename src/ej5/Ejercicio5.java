@@ -14,7 +14,8 @@ public class Ejercicio5 {
         double suma = 0;
         Scanner sc = new Scanner(System.in);
 
-        for(int i = 0; i < numeros.length; i++){
+        for(int i = 0; i < numeros.length; i++) {
+            // pedimos un número al usurio y lo almacenamos en el array
             System.out.print("Introduce un número: ");
             numeros[i] = sc.nextDouble();
 
@@ -22,9 +23,9 @@ public class Ejercicio5 {
             suma += numeros[i];
 
             // comprobamos si es menor o mayor
-            if(numeros[i] > mayor){
+            if (numeros[i] > mayor) {
                 mayor = numeros[i];
-            }else if(numeros[i] < menor || menor == 0){
+            } else if (numeros[i] < menor || menor == 0) {
                 menor = numeros[i];
             }
         }

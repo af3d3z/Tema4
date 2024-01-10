@@ -13,6 +13,7 @@ public class Ejercicio1 {
             tabla[i] = rand.nextInt(101);
         }
 
+        // mostramos por pantalla el array de números aleatorios
         for(int i = 0; i < tabla.length; i++) {
             if(i == 0){
                 System.out.print("[" + tabla[i] + ", ");

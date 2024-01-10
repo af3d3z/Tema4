@@ -43,6 +43,5 @@ public class Ejercicio7 {
         }
         
         sc.close();
-        
     }
 }

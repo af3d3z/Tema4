@@ -32,7 +32,8 @@ public class Ejercicio8 {
 			System.err.println("Dato inválido.");
 			sc.nextLine();
 		}
-		
+
+		// imprimimos el array de números aleatorios
 		System.out.println("Números aleatorios:");
 		for(int i = 0; i < array.length; i++) {
 			if(array[i] == numUsuario) {
@@ -42,7 +43,8 @@ public class Ejercicio8 {
 			System.out.print(array[i] + " ");
 		}
 		System.out.println();
-		
+
+		// imprimimos las posiciones en las que se encuentra el número seleccionado
 		System.out.println("El número " + numUsuario + " se encuentra en las siguientes posiciones: ");
 		for(int pos: posiciones) {
 			System.out.print(pos + " ");
@@ -50,5 +52,4 @@ public class Ejercicio8 {
 		
 		sc.close();
 	}
-
 }
